@@ -1,0 +1,277 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+h2{
+    margin:0;
+    padding:0;
+}
+body{
+    width: 425px;
+    margin:0;
+    padding:0;
+
+}
+main{
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-superior{
+
+    display: none;
+}
+.opciones{
+    display: none;
+}
+
+
+
+
+.categoria{
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         background-color: #F0A83E;
+         width: 425px;
+         height: 40px;
+}
+.menu-burger{
+    margin-right: 30px;
+    width: 20px;
+    height: 20px;
+}
+.img-bienveniva{
+    position:relative;
+    
+}
+.texto-bienvenida{position: relative;
+    width: 425px;
+    height: 450px;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    
+                 
+}
+
+h1{ 
+    align-self: flex-end;
+    background-color: #F0A83E;
+    text-align: center;
+    line-height: 50px;
+    width: 140px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 16px;
+color: #FFFFFF;
+
+}
+.texto-bienvenida h2 {position: 
+           width:365px ;
+           height: 54px;
+           border-radius: 5px; 
+           background-color: #FFFFFF;
+           font-size: 32px;
+           text-align: center;
+           line-height:54px ;
+}
+.texto-bienvenida h4{ 
+    align-self: flex-end;
+    font-size: 24px;
+}
+.img-princ{
+ display: none;
+}
+.img-mobile{ position: absolute;
+             width: 425px; 
+
+}
+
+
+.patita{ position:relative;
+    display: flex;
+    width: 425px;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+       
+
+}
+
+.seccion-ofertas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.seccion-ofertas h3{
+    font-weight: 700;
+}
+
+.seccion-ofertas p {
+    color: #F0A83E;
+}
+.contactanos{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    line-height: 40px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+.contactanos h2{margin-top: 50px;
+    color:#3C2313;
+    font-weight: 700;
+}
+.case{
+    width: 340px;
+    height: 40px;
+    border-radius: 15px;
+    background-color:#3C2313 ;
+    margin-top: 20x;
+    margin-bottom: 5px;
+    
+    }
+
+    .reset-enviar{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        line-height: 40px;
+        color: #222222;
+        margin-bottom: 50px;
+        
+        
+   }
+     .reset{
+        background-color: #8A8787;
+        width: 100px; 
+        height: 40px;
+        border-radius:15px ;
+        margin-right: 5px;
+   }
+    .enviar{
+        background-color: #F0A83E;
+        width: 100px;
+        height: 40px;
+        border-radius:15px ;
+        margin-left: 5px;
+   }
+   .contactanos h2{margin-top: 50px;
+        color:#3C2313;
+        font-weight: 700;
+        
+   }
+
+
+
+
+
+.newsletter{
+    width: 425px;
+    height:100px ;
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+        background-color: #F0A83E;
+        text-align: center;
+       
+   }
+   
+   .novedades{display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #FFFFFF;
+        font-size: 24px;
+        gap: 20px;
+   
+   }
+   .novedades-der{
+        display: flex;
+        align-items: center;
+   }
+   .ingresa-correo{
+        background-color: #FFFFFF;
+        width: 270px;
+        height: 40px;
+        line-height: 40px;
+        color:#A0A0A0;
+        border-radius: 15px;
+        text-align: left;
+       
+   }
+   .suscribete{
+        background-color: #3C2313;
+        width: 70px;
+        height: 40px;
+        line-height: 40px;
+        color:#A0A0A0;
+        border-radius: 15px;
+        text-align: left;
+        margin-right: 30px;
+        color: #FFFFFF;
+   }
+.contacto-iconos{display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:150px;
+    
+}
+
+.contacto{margin: 0;
+    padding: 0;
+    width: 425px;
+       display: flex;
+       flex-direction: column;
+       align-items:center;
+       justify-content: space-around;
+       height: 200px;
+       background-color: #3C2313;
+}
+.icon{
+      width: 150px;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      
+      
+     
+      
+      
+}
+.img-icon{
+    width: 50px;
+    height: 50px;
+}
+
+.text-contact{
+    display: flex;
+    flex-direction: column;
+    text-align:left;
+    align-items: center;
+    font-size: 8px;
+    color:#FFFFFF;
+    margin-left: 10px;
+}
+ 
+footer{margin: 0%;
+background-color: #222222;
+color: #FFFFFF;
+text-align: center;
+width: 425px;
+}
+
+.logo-inv{
+    display: none;
+}
+ 
+@media (min-width: 500px)
