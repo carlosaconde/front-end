@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles-heroe.css">
+    <title>arma tu heroe</title>
+</head>
+<body>
+    <header>
+  
+        <h3>  descuentos 20%</h3>
+         <h1> Heroes</h1>
+     
+     </header>
+     <main>
+    <section>
+    
+          <div class="titulo">
+            <h2>Añadi tu super !</h2>
+             <h3>Agregá tu pesonaje favorito completando las opciones.</h3>
+            </div>
+
+            
+    
+          
+        <form action="./armatusuper.html" method="POST">
+            <div class="super">
+            <div class="izq">
+            
+
+                <label for="nombre"> *nombre</label>
+                <input class="campo" type="text" name="nombre" id="nombre" placeholder="nombre">
+           
+                <label for="fecha">Fecha</label>
+               <input class="campo type="date" name="fecha" id="fecha">
+               <textarea>descripcion
+                  </textarea>
+           </div>
+                  <div class="der">
+                    <label for="especie">*especie</label>
+                  <input class="campo type="text" name="especie" id="especie" placeholder="especie">
+
+                  <label for="foto"> Agregar Foto</label>
+                  <input class="campo" type="file" name="foto" id="foto" accept=".jpg,.png">
+                  
+
+                  
+                   <label for="poderes">Poderes</label>
+                   
+                   <label for="volar"><input class="campo" type="checkbox" name="poderes" id="poderes" value="Volar">volar</label>
+
+                   
+                   <label for="poderes"><input class="campo" type="checkbox" name="poderes"  id="poderes" value="superinteligencia">superinteligencia</label>
+
+                   
+                   <label for="poderes"><input class="campo" type="checkbox" name="poderes" id="poderes" value="vistax">Vista de rayos laser</label>
+
+                   
+                   <label for="poderes"><input class="campo" type="checkbox" name="poderes" id="poderes" value="guita">Billetera gorda</label>
+                  <hr>
+                   <label for="tipo"> Tipo de personaje</label>
+                   
+                   <label for="tipo"><input type="radio" name="tipo" id="tipo">Heroes / Heroina</label>
+                   
+                   <label for="tipo"><input type="radio" name="tipo" id="tipo">Villano / Villana</label>
+
+                  </div>
+                
+                </div>
+        </form>
+           <input class="añadir" type="submit" name="Añadir" value="Añadir">
+    </section>
+</main>
+<footer> <span> Todos los derechos reservados a FRONT END 1</span> <img class="github-logo"src="./img/logo-github.png" alt="github"> </footer>
+</body>
+     
+</html>
+
+
+<!-- https://www.figma.com/file/9XZ12ORXQuvMNg3ydKQtFo/Formulario-ll?node-id=22%3A6  -->

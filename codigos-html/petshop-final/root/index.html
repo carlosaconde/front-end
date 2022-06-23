@@ -75,22 +75,24 @@
                
             
     </section>
-
+      <form action="/registro" method="POST">
        <section class="contactanos">
-
+    
           <h2>Contáctanos</h2>
-          <span class="case">Nombre y apellido</span>
-          <span class="case">Ingresa tu correo electronico</span>
-          <span class="case">Teléfono</span>
-       
+          <input class="case" type="text" name="nombre y apellido" id="nombre" placeholder="Nombre y Apellido">
+          <input class="case" type="email" name="email" id="email" placeholder="Ingresa tu correo electronico">
+          <input class="case" type="tel" name="tel" id="tel" placeholder="Teléfono">
+         
        </section>
 
 
        <div class="reset-enviar">
-        <span class="reset">Resetear</span>
-        <span class="enviar">Enviar</span>
+       <button class="reset" type="reset">Resetear</button>
+       <button class="enviar" type="submit">Enviar</button>
+       
+       
         </div>
-
+      </form>
 
 
   </main>
@@ -102,8 +104,9 @@
               <span>suscribite     para  mas novedades</span>
               </div>
             <div class="novedades-der">
-              <span class="ingresa-correo">ingresa tu correo electronico</span>
-              <span class="suscribete">suscribete</span>
+              <input class="ingresa-correo" type="email" name="email" id="email" placeholder="Ingresa tu correo electronico">
+              <button class="suscribete" type="submit">suscribete</button>
+          
             </div>
 
           </section>

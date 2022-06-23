@@ -1,0 +1,103 @@
+header h3 {
+    margin: 0;
+    padding: 0;
+    height: 30px;
+    background-color: #1CD1B0;
+}
+h1{
+    margin: 0;
+    padding: 0;
+    background-color: #00669F;
+
+}
+main{display: flex;
+    justify-content: center;
+}
+section{
+    background-color: #00669F;
+    border-radius: 49px;
+    color: #FBFFFD;
+    display: flex;
+    width: 600px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    font-size: 12px;
+}
+.titulo{
+    text-align: center;
+}
+.super{
+    display: flex;
+    
+    justify-content: center;
+    widht: 500px;
+    height: 250px;
+
+}
+
+.izq{
+      display: flex;
+
+      flex-direction: column;
+ 
+      width: 200px;
+      height: 230px;
+      
+      
+
+
+}
+
+.campo{
+    border-radius: 10px;
+}
+
+textarea{
+           height: 150px;
+          border-radius: 10px;}
+
+
+
+.der{
+    display: flex;
+    flex-direction:column;
+     width: 200px;
+     height: 230px;
+    
+}
+hr{ 
+    width: 200px;
+    color:#CCCCCC;
+}
+
+
+.añadir{ 
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #1CD1B0;
+    font-weight: 900;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+footer
+    {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#00669F;
+    height: 50px;
+    width: 100vw;
+    color: #FFF9F9;
+    margin-top: 50px;
+    line-height: 50px;
+    gap: 30px;
+}
+
+.github-logo{
+    width:50px;
+    height:15px
+}
