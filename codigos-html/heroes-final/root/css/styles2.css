@@ -1,131 +1,121 @@
-body{width: 100vw;
-     margin: 0%;
-     padding: 0%;
+body {
+  width: 100vw;
+  margin: 0%;
+  padding: 0%;
 }
 
-header h3 {margin: 0;
-    padding: 0;
-    height: 30px;
-    background-color: #D1891C;
+header h3 {
+  margin: 0;
+  padding: 0;
+  height: 30px;
+  background-color: #d1891c;
 }
-h1{margin: 0;
-    padding: 0;
-    background-color: #00669F;
+h1 {
+  margin: 0;
+  padding: 0;
+  background-color: #00669f;
+}
 
+.cards {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-
-.cards{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
-    
-   
+.fondo {
+  position: absolute;
+  width: 220px;
+  border-radius: 16px 16px 0 0;
 }
-.fondo{position: absolute;
-    width: 220px;
-    border-radius: 16px 16px 0 0;
-}
-p{  
-    width:200px;
-    height:200px ;
+p {
+  width: 200px;
+  height: 200px;
 }
 .card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  width: 220px;
+  height: 450px;
+  font-size: 12px;
+  background-color: #f3f3f3;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.corazon {
+  z-index: 1;
+  align-self: flex-start;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+.logo {
+  z-index: 1;
+  width: 70px;
+  border-radius: 35px;
+  margin-top: 25%;
+  justify-content: center;
+}
+
+.ver-mas {
+  width: 80px;
+  height: 30px;
+  background-color: #00669f;
+  color: white;
+  margin-bottom: 20px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #00669f;
+  height: 50px;
+  width: 100vw;
+  color: #fff9f9;
+  margin-top: 50px;
+  line-height: 50px;
+  gap: 30px;
+}
+
+.github-logo {
+  width: 50px;
+  height: 15px;
+}
+
+a .boton-mas {
+  margin: 0;
+  padding: 0;
+  position: fixed;
+
+  top: 50%;
+  right: 10%;
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  z-index: 1;
+}
+
+@media (min-width: 500px) {
+  .cards {
     display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    width: 220px;
-    height: 450px;
-    font-size: 12px;
-    background-color: #F3F3F3;
-    margin-top: 60px;
-    margin-bottom: 60px;
+    flex-direction: row;
 
-}
-
-.corazon{ 
-    z-index: 1;
-    align-self: flex-start;
-    margin-left: 15px;
-    margin-top: 15px;
-}
-
-.logo{z-index: 1;
-      width: 70px;
-      border-radius: 35px;
-      margin-top: 25%;
-      justify-content:center;
-}
-
-.ver-mas{
-    width: 80px;
-    height: 30px;
-    background-color: #00669F;
-    color: white;
-    margin-bottom: 20px;
-
-}
-
-footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color:#00669F;
-    height: 50px;
-    width: 100vw;
-    color: #FFF9F9;
-    margin-top: 50px;
-    line-height: 50px;
-    gap: 30px;
-}
-
-.github-logo{
-             width:50px;
-             height:15px
-}
-
-a .boton-mas{
+    justify-content: space-around;
+    gap: 60px;
+  }
+  a .boton-mas {
     margin: 0;
     padding: 0;
     position: fixed;
-    
-    top: 50%;
-    right: 10%;
+
+    top: 70%;
+    right: 5%;
     width: 50px;
     height: 50px;
     border: 1px solid black;
     z-index: 1;
-}
-  
-   
-   
-
-
-@media(min-width:500px)
-
-{
-    .cards{
-        display: flex;
-        flex-direction: row;
-      
-        justify-content: space-around;
-        gap: 60px;
-       
-        
-       
-    }
-    a .boton-mas{
-        margin: 0;
-        padding: 0;
-        position: fixed;
-        
-        top: 70%;
-        right: 5%;
-        width: 50px;
-        height: 50px;
-        border: 1px solid black;
-        z-index: 1;
-    }
+  }
 }
